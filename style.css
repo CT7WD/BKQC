@@ -1,5 +1,6 @@
 :root{
     --bright-white: rgb(254, 254, 254);
+    --fc-ghostwhite: 240, 100%, 100%;
 }
 
 *,
@@ -60,8 +61,8 @@ body{
 }
 .nav-section__logo--small:hover,
 .nav-section__logo--small:focus{
-    -webkit-box-shadow: 0 0 7px 7px rgba(254, 254, 254,0.4);
-    box-shadow: 0 0 7px 7px rgba(254, 254, 254 ,0.4);
+    -webkit-box-shadow: 0 0 5px 5px rgba(254, 254, 254,0.4);
+    box-shadow: 0 0 5px 5px rgba(254, 254, 254 ,0.4);
 }
 .nav-section__list{
     float: right;
@@ -71,13 +72,13 @@ body{
 .nav-section__item{
     text-transform: uppercase;
     margin-left: 2rem;
-    -webkit-box-shadow: 0 0 7px 7px rgba(107,107,107,0.4);
-    box-shadow: 0 0 7px 7px rgba(107,107,107,0.4);
+    -webkit-box-shadow: 0 0 5px 5px rgba(107,107,107,0.4);
+    box-shadow: 0 0 5px 5px rgba(107,107,107,0.4);
 }
 .nav-section__link{
     transition: 0.3s ease;
     text-decoration: none;
-    color: grey;
+    color: hsl(var(--fc-ghostwhite),  0.5);
 
 }
 .nav-section__link:hover,
